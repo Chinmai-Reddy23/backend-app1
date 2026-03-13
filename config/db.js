@@ -11,7 +11,6 @@ const dbConnect = async () => {
 
   } catch (err) {
     console.log("DB Error:", err);
-    process.exit(1);
   }
 };
 
